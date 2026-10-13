@@ -10,8 +10,8 @@ import random
 import base64
 
 def gizli_mesaj_coz():
-    # Gizli kod. Sadece meraklılar için.
-    kod = "QnVyb2tyYXNpIHNvbnN1emR1ciwgYW1hIHNpcmEgaGVya2VzZSBlc2l0IGRlw6fpbGRpci4="
+    # Gizli kod. Sadece meraklılar için. Siyasi anlam taşıyor ama gizli.
+    kod = "QsO8cm9rcmFzaSBzb25zdXpkdXIsIGFtYSBzxLFyYSBoZXJrZXNlIGXFn2l0IGRlxJ9pbGRpci4="
     try:
         return base64.b64decode(kod).decode('utf-8')
     except:
